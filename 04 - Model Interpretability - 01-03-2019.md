@@ -1,6 +1,6 @@
 # Interpretability and explainable machine-learning models.
 
-## Introduction
+# Introduction
 As our models gets more and more complex and non-linear, it becomes difficult to clearly understand how they function and the reasons that have lead to a specific result.
 Many attempts were made so far in the field: Visualization of CNN neurons; Measuring feature importance using LIME, SHAP, TCAV, to name a few. These methods shed light on the feature importance for a specific prediction/inference and can help understanding if the model is biased.
 
@@ -69,7 +69,7 @@ https://arxiv.org/pdf/1805.01070.pdf
 ### Autonomous Vehicles:
 https://kimjinkyu.files.wordpress.com/2017/12/nips_2017.pdf
 
-## Meeting Notes
+# Meeting Notes
 Model interpretability depends on the target audience or on the context. A doctor will need a different explanation than a judge for a prediction.
 It may also be personal: explanation that satisfies one person, may not be enough for another.
 For data scientists and developers, it may be a tool to adjust the model - i.e. for debugging.
@@ -77,5 +77,10 @@ Therefore, there should be a clear distinction when speaking about model interpr
 
 A certain concern was expressed: when disecting a neural network - are we focusing too much on the explainee neurons while ignoring neurons which do not have a clear purpose (which are the magority of the neurons in the net).
 
-"Thinking fast and slow" from Kahnmann was brought as a possible explanation for neural network, where "intuition" was given as an explanation for a neural net. But this can not be satisfactory explanation for a model. Not morally nor legally.
-ML should be explainable, and not be held as an intuition, as its acceptance, by humans in a mixed world, depends on understanding its "motives".
+"Thinking fast and slow" from Kahnmann was brought as a possible explanation for neural network, where "intuition" was given as an explanation for a neural net. 
+But this can not be satisfactory explanation for a model. Not morally nor legally.
+ML should be explainable, and not be held as an intuition, as its acceptance by humans in a mixed world, depends on understanding its "motives".
+
+Humans are making decisions first, and only afterwards understand the reasons that lead to those decisions. In a way, LIME acts similarly by supplying an explanations to predictions after they were deducted. Clients are mostly interested in those local explanations (compared to global general model explanations) after an unexpected prediction were made.
+
+The current usage of LIME gives an initial intuition for the model performance, but this intution may be wrong. The linear surrogate model that is created by the current LIME implementation has unexplainaed inner assumptions regarding the distance (delta or epsilon) around the local point. Changes to this distance leads to different explanations. In addition, it does not take into considereation the importance of combination of features and their mutual contribution.
