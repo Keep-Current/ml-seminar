@@ -21,7 +21,7 @@ https://christophm.github.io/interpretable-ml-book/
 Analyzing feature-importance using a 'shadow' linear model:
 
 #### The Intriguing Properties of Model Explanations:
-https://arxiv.org/pdf/1801.09808.pdf
+[The Intriguing Properties of Model Explanations](https://arxiv.org/pdf/1801.09808.pdf)
 
 ### lightning talk:
 Video: https://youtu.be/p9vdQUxQOzg?t=650
@@ -29,22 +29,23 @@ Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_spotlight_talks.pdf
 (Slides 23 - 27 - although the rest is interesting too ;) )
 
 #### LIME
-https://arxiv.org/abs/1602.04938
+["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
 https://github.com/marcotcr/lime
 https://medium.freecodecamp.org/how-to-improve-your-machine-learning-models-by-explaining-predictions-with-lime-7493e1d78375
 
 #### SHAP
-https://arxiv.org/abs/1705.07874
+[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
 https://github.com/slundberg/shap
 https://medium.com/@gabrieltseng/interpreting-complex-models-with-shap-values-1c187db6ec83
 
 #### TCAV
-https://arxiv.org/abs/1711.11279
+[Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)
+](https://arxiv.org/abs/1711.11279)
 https://github.com/tensorflow/tcav
 https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110/
 
 #### Manifold
-https://arxiv.org/pdf/1808.00196.pdf
+[Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models](https://arxiv.org/pdf/1808.00196.pdf)
 https://eng.uber.com/manifold/
 
 Various ML model Architectures:
@@ -58,13 +59,15 @@ demo: http://netdissect.csail.mit.edu/
 https://gandissect.csail.mit.edu/
 
 #### Seq2Seq:
-https://arxiv.org/abs/1804.09299
+[Seq2Seq-Vis: A Visual Debugging Tool for Sequence-to-Sequence Models](https://arxiv.org/abs/1804.09299)
+
 http://seq2seq-vis.io/
 
 #### NLP - Word & Sentence Embedding:
 http://www.offconvex.org/2018/06/17/textembeddings/
-https://arxiv.org/pdf/1608.04207.pdf
-https://arxiv.org/pdf/1805.01070.pdf
+[Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks](https://arxiv.org/pdf/1608.04207.pdf)
+[What you can cram into a single $&!#* vector:Probing sentence embeddings for linguistic properties](https://arxiv.org/pdf/1805.01070.pdf)
+[Dissecting Contextual Word Embeddings:Architecture and Representation](http://aclweb.org/anthology/D18-1179)
 
 #### Autonomous Vehicles:
 https://kimjinkyu.files.wordpress.com/2017/12/nips_2017.pdf
