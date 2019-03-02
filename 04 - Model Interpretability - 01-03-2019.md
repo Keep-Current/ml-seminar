@@ -8,12 +8,12 @@ Many attempts were made so far in the field: Visualization of CNN neurons; Measu
 What exactly do we mean by model interpretability?
 
 #### Jenn Wortman Vaughan from Microsoft examines various aspects of interpretability from user perspective:
-Video: https://www.youtube.com/watch?v=8ZoL-cKRf2o
-Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_jenn_wortman_vaughan.pdf
+- Video: https://www.youtube.com/watch?v=8ZoL-cKRf2o
+- Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_jenn_wortman_vaughan.pdf
 
 #### Viktoria Krakovna from DeepMind discuss the importance of interpretability in reinforcement learning:
-Video: https://www.youtube.com/watch?v=3HzIutdlpho
-Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_victoria_Krakovna.pdf
+- Video: https://www.youtube.com/watch?v=3HzIutdlpho
+- Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_victoria_Krakovna.pdf
 
 #### An extended book about ML Interpretability (if you wish to dig deeper):
 https://christophm.github.io/interpretable-ml-book/
@@ -24,50 +24,47 @@ Analyzing feature-importance using a 'shadow' linear model:
 [The Intriguing Properties of Model Explanations](https://arxiv.org/pdf/1801.09808.pdf)
 
 ### lightning talk:
-Video: https://youtu.be/p9vdQUxQOzg?t=650
-Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_spotlight_talks.pdf
-(Slides 23 - 27 - although the rest is interesting too ;) )
+- Video: https://youtu.be/p9vdQUxQOzg?t=650
+- Slides: http://s.interpretable.ml/nips_interpretable_ml_2017_spotlight_talks.pdf (Slides 23 - 27 - although the rest is interesting too ;) )
 
 #### LIME
-["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
-https://github.com/marcotcr/lime
-https://medium.freecodecamp.org/how-to-improve-your-machine-learning-models-by-explaining-predictions-with-lime-7493e1d78375
+- ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
+- https://github.com/marcotcr/lime
+- https://medium.freecodecamp.org/how-to-improve-your-machine-learning-models-by-explaining-predictions-with-lime-7493e1d78375
 
 #### SHAP
-[A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
-https://github.com/slundberg/shap
-https://medium.com/@gabrieltseng/interpreting-complex-models-with-shap-values-1c187db6ec83
+- [A Unified Approach to Interpreting Model Predictions](https://arxiv.org/abs/1705.07874)
+- https://github.com/slundberg/shap
+- https://medium.com/@gabrieltseng/interpreting-complex-models-with-shap-values-1c187db6ec83
 
 #### TCAV
-[Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)
-](https://arxiv.org/abs/1711.11279)
-https://github.com/tensorflow/tcav
-https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110/
+- [Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)](https://arxiv.org/abs/1711.11279)
+- https://github.com/tensorflow/tcav
+- https://www.quantamagazine.org/been-kim-is-building-a-translator-for-artificial-intelligence-20190110/
 
 #### Manifold
-[Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models](https://arxiv.org/pdf/1808.00196.pdf)
-https://eng.uber.com/manifold/
+- [Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models](https://arxiv.org/pdf/1808.00196.pdf)
+- https://eng.uber.com/manifold/
 
 Various ML model Architectures:
 
 #### CNN dissection and Visualization:
-paper: https://arxiv.org/pdf/1704.05796.pdf
-slides: http://people.csail.mit.edu/bzhou/ppt/presentation_ICML_workshop.pdf
-demo: http://netdissect.csail.mit.edu/
+- paper: https://arxiv.org/pdf/1704.05796.pdf
+- slides: http://people.csail.mit.edu/bzhou/ppt/presentation_ICML_workshop.pdf
+- demo: http://netdissect.csail.mit.edu/
 
 #### GAN dissection:
 https://gandissect.csail.mit.edu/
 
 #### Seq2Seq:
-[Seq2Seq-Vis: A Visual Debugging Tool for Sequence-to-Sequence Models](https://arxiv.org/abs/1804.09299)
-
-http://seq2seq-vis.io/
+- [Seq2Seq-Vis: A Visual Debugging Tool for Sequence-to-Sequence Models](https://arxiv.org/abs/1804.09299)
+- http://seq2seq-vis.io/
 
 #### NLP - Word & Sentence Embedding:
-http://www.offconvex.org/2018/06/17/textembeddings/
-[Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks](https://arxiv.org/pdf/1608.04207.pdf)
-[What you can cram into a single $&!#* vector:Probing sentence embeddings for linguistic properties](https://arxiv.org/pdf/1805.01070.pdf)
-[Dissecting Contextual Word Embeddings:Architecture and Representation](http://aclweb.org/anthology/D18-1179)
+- http://www.offconvex.org/2018/06/17/textembeddings/
+- [Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks](https://arxiv.org/pdf/1608.04207.pdf)
+- [What you can cram into a single $&!#* vector:Probing sentence embeddings for linguistic properties](https://arxiv.org/pdf/1805.01070.pdf)
+- [Dissecting Contextual Word Embeddings:Architecture and Representation](http://aclweb.org/anthology/D18-1179)
 
 #### Autonomous Vehicles:
 https://kimjinkyu.files.wordpress.com/2017/12/nips_2017.pdf
