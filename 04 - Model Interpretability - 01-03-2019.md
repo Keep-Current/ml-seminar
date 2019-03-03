@@ -85,7 +85,7 @@ Humans are making decisions first, and only afterwards understand the reasons th
 
 Training data validity, variance and quality is an important factor as well to the quality of the model explanation.
 
-The current usage of LIME gives an initial intuition for the model performance, but this intution may be wrong. The linear surrogate model that is created by the current LIME implementation has unexplainaed inner assumptions regarding the distance (delta or epsilon) around the local point. Changes to this distance leads to different explanations. In addition, it is insensitive to noise, and it does not take into considereation the importance of combination of features and their mutual contribution.
+The current usage of LIME gives an initial intuition for the model performance, but this intution may be wrong. The linear surrogate model that is created by the current LIME implementation has unexplainaed inner assumptions regarding the distance (delta or epsilon) around the local point. Changes to this distance leads to different explanations. In addition, it is insensitive to noise, depends on a 'correct' feature subset selection and it does not take into considereation the importance of combination of features and their mutual contribution.
 A combination of features is found in SHAP, as well as in the second version of LIME - [anchor-LIME](https://arxiv.org/abs/1611.05817).
 
 Both LIME and SHAP are actually another model, that is done to explain the original model. A question arrose: can we trust the model tat explain the model? and if not, how deep should we go, nesting explaination models?
